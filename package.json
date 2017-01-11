@@ -1,0 +1,22 @@
+{
+  "name": "johnlindquist.com",
+  "version": "1.0.0",
+  "description": "I put stuff here. You can read it if you'd like :balloon:",
+  "dependencies": {
+    "gitbook-plugin-advanced-emoji": "^0.2.1",
+    "gitbook-plugin-copy-code-button": "^0.0.2",
+    "gitbook-plugin-anchorjs": "^1.1.1",
+    "gitbook-plugin-prism": "^2.0.2",
+    "gitbook-plugin-include-codeblock": "^3.0.0"
+  },
+  "devDependencies": {
+    
+  },
+  "scripts": {
+    "start": "gitbook serve",
+    "deploy": "gitbook build && now ./_book --static --alias johnlindquist.com"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
